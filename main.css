@@ -118,14 +118,15 @@ ul {
 
 @media only screen and (min-width: 720px) {
     main {
-        /* max-width: 800px */;
-        margin-right: auto;
-        margin-left: auto;
+        /* max-width: 800px */
+        margin: 0 auto;
     }
 
     .aboutme {
         display: flex;
         justify-content: space-between;
+        width: 85%;
+        margin: 0 auto;
     }
 
     .heroimg {
@@ -136,7 +137,6 @@ ul {
     .footer {
         max-width: 50%;
     }
-
 
 }
 
