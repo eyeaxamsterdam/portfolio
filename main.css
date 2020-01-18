@@ -13,12 +13,7 @@ html {
 }
 
 main {
-<<<<<<< HEAD
     padding-top:75px;
-    font-size: 18px;
-=======
-    padding-top:100px;
->>>>>>> ba9ade04080753fca8b6e695b03dd59786f3762b
 }
 
 .readMore {
@@ -52,14 +47,6 @@ header {
     width: 85%;
 }
 
-p {
-    font-size: 20px;
-}
-
-h1 {
-    font-size: 3em;
-}
-
 h2 {
     text-align: center;
     padding: 10px 0;
@@ -71,18 +58,22 @@ h3 {
     font-size: 25px;
 }
 
+.myprojects p {
+    padding-top: 20px;
+}
 
 
 .outsidelink {
     display: flex;
     justify-content: space-evenly;
+    margin-top: 5px;
     width: 60%;
-    margin: 5px auto;
-
+    margin-right: auto;
+    margin-left: auto;
 }
 
 a {
-    color:rgb(15, 26, 128);
+    color:rgba(0, 46, 65);
 }
 
 a:hover {
@@ -95,20 +86,26 @@ a:hover {
     padding: 15px;
 }
 
-.biography {
+.aboutme p {
     text-align: left;
+    margin: 15px 0;
 }
 
 .heroimg {
     width: 66.6%;
 }
 
+.footer {
+    padding: 15px;
+    max-width: 720px;
+}
 
 ul {
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
     padding: 15px;
+    font-size: 20px;
 }
 
 .languages {
@@ -120,25 +117,12 @@ ul {
     margin-left: auto;
 }
 
-.biography p {
-    padding: 5px 0;
-}
 
 
-
-<<<<<<< HEAD
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 720px) {
     main {
         margin: 0 auto;
     }
-
-    .myprojects {
-        max-width: 900px;
-        margin: 0 auto;
-    }
-=======
-@media only screen and (min-width: 720px) {
->>>>>>> ba9ade04080753fca8b6e695b03dd59786f3762b
 
     .aboutme {
         display: flex;
@@ -146,7 +130,6 @@ ul {
         align-items: center;
         width: 85%;
         margin: 0 auto;
-        max-width: 971px;
     }
 
     .heroimg {
@@ -158,24 +141,22 @@ ul {
         max-width: 50%;
     }
 
-<<<<<<< HEAD
-    .readMoreBtn, .readLessBtn {
-=======
     .readMoreBtn, .readLessBtn, .aboutme a {
->>>>>>> ba9ade04080753fca8b6e695b03dd59786f3762b
         display: none;
     }
 
     .readMore {
-<<<<<<< HEAD
         display: contents;
     }
 
+    .myprojects {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
     .aboutme {
-        max-width: 1200px;
-=======
-        display: inline;
->>>>>>> ba9ade04080753fca8b6e695b03dd59786f3762b
+        max-width: 900px;
+
     }
 
 }
