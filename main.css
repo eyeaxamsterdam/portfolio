@@ -14,6 +14,7 @@ html {
 
 main {
     padding-top:75px;
+    font-size: 18px;
 }
 
 .readMore {
@@ -56,17 +57,14 @@ h3 {
     padding: 5px 0;
 }
 
-.myprojects p {
-    padding-top: 20px;
-}
+
 
 .outsidelink {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 5px;
     width: 60%;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 5px auto;
+
 }
 
 a {
@@ -83,9 +81,8 @@ a:hover {
     padding: 15px;
 }
 
-.aboutme p {
+.biography {
     text-align: left;
-    margin: 15px 0;
 }
 
 .heroimg {
@@ -93,8 +90,7 @@ a:hover {
 }
 
 .footer {
-    padding: 15px;
-    max-width: 720px;
+
 }
 
 ul {
@@ -114,19 +110,29 @@ ul {
     margin-left: auto;
 }
 
+.biography p {
+    padding: 5px 0;
+}
 
 
-@media only screen and (min-width: 720px) {
+
+@media only screen and (min-width: 800px) {
     main {
-        /* max-width: 800px */
+        margin: 0 auto;
+    }
+
+    .myprojects {
+        max-width: 900px;
         margin: 0 auto;
     }
 
     .aboutme {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         width: 85%;
         margin: 0 auto;
+        max-width: 971px;
     }
 
     .heroimg {
@@ -136,6 +142,18 @@ ul {
 
     .footer {
         max-width: 50%;
+    }
+
+    .readMoreBtn, .readLessBtn {
+        display: none;
+    }
+
+    .readMore {
+        display: contents;
+    }
+
+    .aboutme {
+        max-width: 1200px;
     }
 
 }
