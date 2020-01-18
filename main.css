@@ -13,7 +13,7 @@ html {
 }
 
 main {
-    padding-top:75px;
+    padding-top:100px;
 }
 
 .readMore {
@@ -47,13 +47,23 @@ header {
     width: 85%;
 }
 
+p {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
 h2 {
     text-align: center;
     padding: 10px 0;
+    font-size: 30px;
 }
 
 h3 {
     padding: 5px 0;
+    font-size: 25px;
 }
 
 .myprojects p {
@@ -70,7 +80,7 @@ h3 {
 }
 
 a {
-    color:rgba(0, 46, 65);
+    color:rgb(15, 26, 128);
 }
 
 a:hover {
@@ -102,7 +112,6 @@ ul {
     display: flex;
     justify-content: space-evenly;
     padding: 15px;
-    font-size: 20px;
 }
 
 .languages {
@@ -117,10 +126,6 @@ ul {
 
 
 @media only screen and (min-width: 720px) {
-    main {
-        /* max-width: 800px */
-        margin: 0 auto;
-    }
 
     .aboutme {
         display: flex;
@@ -136,6 +141,14 @@ ul {
 
     .footer {
         max-width: 50%;
+    }
+
+    .readMoreBtn, .readLessBtn, .aboutme a {
+        display: none;
+    }
+
+    .readMore {
+        display: inline;
     }
 
 }
