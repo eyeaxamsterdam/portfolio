@@ -10,6 +10,7 @@
 html {
     background: linear-gradient(45deg, rgb(61, 61, 61), rgb(207, 207, 221));
     font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
 }
 
 main {

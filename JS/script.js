@@ -1,5 +1,4 @@
-$('.readMoreBtn').on('click', function(e) {
-    e.preventDefault();
+$('.readMoreBtn').on('click', function() {
     $('.readMore').show();
     $('.readMoreBtn').hide();
     $('.readLessBtn').show();
