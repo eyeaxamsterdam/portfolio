@@ -16,16 +16,6 @@
 
     <main>
         <p class="intro">Greetings, I’m Dallin! I’m a web developer with a focus on responsive layout and a passion for user experience.</p>
-        <section class="myprojects">
-            <h2>-Projects-</h2>
-            <h3>Quiz App</h3>
-            <img class="screenshot1" src="images/classicalmusicapp.png" alt="classical music quiz app">
-            <div class=outsidelink>
-                <p><a target=”_blank” href="https://github.com/eyeaxamsterdam/Classical-Music-Quiz">Github Repository</a><p>
-                <p><a target=”_blank” href="https://eyeaxamsterdam.github.io/Classical-Music-Quiz/">Live App</a></p>
-            </div>
-            <p class="languages"><img src="images/html5.png" alt="HTML5">  <img src="images/icons8-color-32.png" alt="CSS3"> <img src="images/iconfinder_js_282802.png" alt="JavaScript">   <img src="images/iconfinder_JQuery_logo_282806.png" alt="jQuery"></p>
-        </section>
         <section class="personal">
             <!-- on mobile screens it will be mostly hidden but on larger screens the whole bio will be shown -->
             <h2>-About Me-</h2>
@@ -35,18 +25,35 @@
                     <p>I worked for several years in the eCommerce field, using various apps and platforms needed to run an online store and business. <a class="readMoreBtn" href="#biography">Read more...</a><span class=readMore>As expected, I sometimes ran into issues with current eCommerce solutions, so curiosity and a passion for solving problems lead me to begin a course with Thinkful in their Engineering Flex Program.</span></p>
                     <div class="readMore">        
                         <p>Although I’ve gone to the “other side,” I’ve still taken along with me the business-focused part of my brain. I understand that, although user interface is important and impressive, what is more important is giving the client a web-site which gives the target audience a beneficial user experience that brings about the desired results.</p>
-                        <p>I was raised with a deep passion for music. It hasn't been my main source of income for a long time, but I still try to spend time on music whenever I can. I have made freindships with local artists and film makers, with whom I collaborate--recording music in my own home on a PC I built for audio production. Through films and art exhibits my music has been heard all over the world.
-                        <a class="readLessBtn" href="">     Read less.</a></p>
+                        <p>I was raised with a deep passion for music.The lessons I've learned from playing music most my life translate well to programing. It's where I learned collaboration and pull my own weight. I have made freindships with local artists and film makers, with whom I collaborate--recording music in my own home on a PC I built for audio production. Through films and art exhibits my music has been heard all over the world.
+                        <a class="readLessBtn" href="">Read less.</a></p>
                     </div>
                 </div>
             </div>
         </section>
+        <section class="myprojects">
+            <h2>-Projects-</h2>
+            <h3>Quiz App</h3>
+            <img class="screenshot1" src="images/classicalmusicapp.png" alt="classical music quiz app">
+            <div class=outsidelink>
+                <p><a target=”_blank” href="https://github.com/eyeaxamsterdam/Classical-Music-Quiz">Github Repository</a><p>
+                <p><a target=”_blank” href="https://eyeaxamsterdam.github.io/Classical-Music-Quiz/">Live App</a></p>
+            </div>
+            <div class="languages"><img src="images/html5.png" alt="HTML5">  <img src="images/icons8-color-32.png" alt="CSS3"> <img src="images/iconfinder_js_282802.png" alt="JavaScript">   <img src="images/iconfinder_JQuery_logo_282806.png" alt="jQuery"></div>
+            <p>I built this app to help myself learn jQuery. It's a simple 10 question quiz about random classical music history facts. The idea is that one of these interesting questions with feedback would cause the quiztaker to go research an aspect of classical music covered in the quiz that intetested them.</p>  
+        </section>
+
     </main>
     <footer>
         <ul>
             <!-- better icons -->
-            <li><a href="https://www.linkedin.com/in/dallin-peacock-82224818a/"><img src="images/linkedin-logo.png" alt="visit my linkedin"></a></li>
-            <li><a href="https://github.com/eyeaxamsterdam"><img src="images/GitHub-Mark/PNG/GitHub-Mark-64px.png" alt="visit my github"></a></li>
+            <li><a href="https://www.linkedin.com/in/dallin-peacock-82224818a/" target="_blank"><img src="images/linkedin-logo.png" alt="visit my linkedin"></a></li>
+            <li id="contactme">
+                <a href="mailto:dallinpeacock@gmail.com" target="_blank">
+                <button type="button" class="email">Contact Me</button>
+                </a>
+            </li>
+            <li><a href="https://github.com/eyeaxamsterdam" target="_blank"><img src="images/GitHub-Mark/PNG/GitHub-Mark-64px.png" alt="visit my github"></a></li>
         </ul>
     </footer>
     <script src="JS/jquery.js"></script>

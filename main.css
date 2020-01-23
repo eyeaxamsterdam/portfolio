@@ -59,11 +59,13 @@ h3 {
     font-size: 25px;
 }
 
-.myprojects p {
+.myprojects div {
     padding-top: 20px;
 }
 
-
+.myprojects p {
+    text-align: left;
+}
 .outsidelink {
     display: flex;
     justify-content: space-evenly;
@@ -98,15 +100,18 @@ a:hover {
 
 .footer {
     padding: 15px;
-    max-width: 720px;
+    margin: 0 auto;
 }
 
-ul {
+footer ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly;
-    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px 50px 50px;
     font-size: 20px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .languages {
@@ -114,10 +119,24 @@ ul {
     justify-content: space-around;
     align-items: center;
     max-width: 455px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
+
 }
 
+.email {
+    height: 64px;
+    width: 20vw;
+    font-size: larger;
+    border-radius: 15px 15px;
+    background: orange;
+    max-width: 206px;
+}
+
+.email:hover {
+    background-color: rgba(0, 46, 65, 0.931);
+    color: wheat;
+    cursor: pointer;
+}
 
 
 @media only screen and (min-width: 720px) {
