@@ -10,3 +10,7 @@ $('.readLessBtn').on('click', function (e) {
     $('.readLessBtn').hide();
     $('.readMoreBtn').show();
 }); 
+
+$('.email').on('click', function() {
+    window.open('mailto:dallinpeacock@gmail.com', '_blank');
+});
