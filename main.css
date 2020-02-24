@@ -39,13 +39,10 @@ header {
     margin-left: auto;
 }
 
-.myprojects {
-    text-align: center;
-    padding: 20px 15px;
-}
 
-.screenshot1 {
-    width: 85%;
+.screenshot1, .lyricsimg {
+    width: 500px;
+    max-width: 90%;
 }
 
 h2 {
@@ -59,8 +56,18 @@ h3 {
     font-size: 25px;
 }
 
-.myprojects div {
+.myprojects {
+    text-align: center;
     padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.quizapp, .lyricsfinder {
+    width: 45%;
 }
 
 .myprojects p {
@@ -114,6 +121,7 @@ footer ul {
     margin: 0 auto;
 }
 
+
 .languages {
     display: flex;
     justify-content: space-around;
@@ -139,6 +147,9 @@ footer ul {
     cursor: pointer;
 }
 
+.linebreak {
+    width: 100%;
+}
 
 @media only screen and (min-width: 720px) {
     main {
@@ -170,10 +181,10 @@ footer ul {
         display: contents;
     }
 
-    .myprojects {
+    /* myprojects {
         max-width: 800px;
         margin: 0 auto;
-    }
+    } */
 
     .aboutme {
         max-width: 900px;
