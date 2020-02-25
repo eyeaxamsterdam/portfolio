@@ -41,8 +41,7 @@ header {
 
 
 .screenshot1, .lyricsimg {
-    width: 500px;
-    max-width: 90%;
+   width: 90%;
 }
 
 h2 {
@@ -52,7 +51,7 @@ h2 {
 }
 
 h3 {
-    padding: 5px 0;
+    padding: 8px 0;
     font-size: 25px;
 }
 
@@ -60,14 +59,20 @@ h3 {
     text-align: center;
     padding-top: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: flex-start;
     flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
+.myprojects p {
+    padding: 5px;
+}
 
 .quizapp, .lyricsfinder {
-    width: 45%;
+    width: 80%;
+    max-width: 600px;
 }
 
 .myprojects p {
@@ -75,15 +80,12 @@ h3 {
 }
 .outsidelink {
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 5px;
-    width: 60%;
-    margin-right: auto;
-    margin-left: auto;
+    justify-content: space-around;
+    margin: 5px auto;
 }
 
 a {
-    color:rgba(0, 46, 65);
+    color:rgb(8, 131, 184);
 }
 
 a:hover {
@@ -121,7 +123,13 @@ footer ul {
     margin: 0 auto;
 }
 
+footer img {
+    height: 64px;
+}
 
+.break {
+    width: 100%;
+}
 .languages {
     display: flex;
     justify-content: space-around;
@@ -181,11 +189,6 @@ footer ul {
         display: contents;
     }
 
-    /* myprojects {
-        max-width: 800px;
-        margin: 0 auto;
-    } */
-
     .aboutme {
         max-width: 900px;
 
@@ -193,3 +196,4 @@ footer ul {
 
 }
 
+/* fix lyrics image */
